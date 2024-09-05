@@ -1,0 +1,38 @@
+body {
+
+background-color: black;
+
+}
+
+.FlexContenedor{
+
+display: flex;
+/* background-color: aqua; */
+
+}
+
+.divizquierdo{
+
+    display: flex;
+    width: 50%;
+align-items: center;
+   
+}
+
+
+.divderecho{
+
+    display: flex;
+    width: 50%;
+    justify-content: end;
+    margin-right: 40px;
+    align-items: end;
+     /* background-color: red;  */
+}
+
+ a, .divderecho{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+}
